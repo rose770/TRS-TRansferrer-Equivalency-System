@@ -1,0 +1,23 @@
+# PDF rendering
+pdf2image>=1.16.0
+Pillow>=10.0.0
+numpy
+
+# OCR engine — requires Python 3.9
+paddlepaddle
+paddleocr
+
+# Image preprocessing
+opencv-python
+
+# AI Extraction (Step 2)
+openai
+python-dotenv
+
+# HTTP requests
+requests
+
+# System dependency — poppler (outside pip):
+# macOS:  brew install poppler
+# Ubuntu: apt-get install poppler-utils
+# Windows: https://github.com/oschwartz10612/poppler-windows
